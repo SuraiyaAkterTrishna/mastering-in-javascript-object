@@ -18,4 +18,10 @@ const student = {
 
 // 2. object constructor
 const players = new Object();
-console.log(players);
+// console.log(players);
+
+// 3. object create method
+const item = Object.create(null);
+// console.log(item);
+const boy = Object.create(student);
+console.log(boy.name);
