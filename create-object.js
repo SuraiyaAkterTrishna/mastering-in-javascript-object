@@ -5,4 +5,17 @@ player.speciality = "Movie, Natok actor";
 player.hero = function(){
     console.log("make good movie");
 };
-console.log(player);
+// console.log(player);
+
+const student = {
+    name: 'Rony', 
+    job: 'Micro biologist', 
+    stack: function(){
+        console.log("He is a MERN Stack Developer");
+    },
+    salary: 10000,
+};
+
+// 2. object constructor
+const players = new Object();
+console.log(players);
