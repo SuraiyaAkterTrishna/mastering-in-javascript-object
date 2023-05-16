@@ -36,3 +36,11 @@ class Person{
 }
 const person1 = new Person(56);
 console.log(person1);
+
+// 5. function 
+function Car(model, price){
+    this.model = model;
+    this.price = price;
+}
+const tesla = new Car('elon', 32);
+console.log(tesla);
