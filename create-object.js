@@ -24,4 +24,15 @@ const players = new Object();
 const item = Object.create(null);
 // console.log(item);
 const boy = Object.create(student);
-console.log(boy.name);
+// console.log(boy.name);
+
+// 4. class 
+class Person{
+    name = 'abul';
+    address = 'sodor ghat';
+    constructor (age){
+        this.age = age;
+    }
+}
+const person1 = new Person(56);
+console.log(person1);
