@@ -10,10 +10,16 @@ const student = {
     },
     improve: function(subject){
         this.exam();
-         return `${this.name} is re participate in another exam: ` ;
+         return `${this.name} is re participate in another exam: ${subject}` ;
     }, 
-    
+    treatDey: function(amount){
+        this.money = this.money - amount;
+        return this.money;
+    }
 };
 const output = student.exam();
 // console.log(output);
-const reExam = student.improve();
+const reExam = student.improve('Algebra');
+const remaining = student.treatDey(900);
+console.log(reExam);
+console.log(remaining);
